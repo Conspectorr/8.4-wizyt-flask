@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona domowa Pawła</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Witaj na stronie domowej Pawła!</h1>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsn4l-jUsVXWsA_t-r_I7BQqP5nCMylKw3eA&amp;usqp=CAU" alt="Szałas w lesie">
+
+    {% block content %}{% endblock %}
+
+    <footer>
+        <p>&copy; 2023 Strona Domowa Pawła. Wszelkie prawa zestrzeżone.</p>
+    </footer>
+</body>
+</html>

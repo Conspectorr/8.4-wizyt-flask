@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>KONTAKT:</h2>
+    <ul>
+        <li>Imię: <strong>Paweł</strong></li>
+        <li>Telefon: <strong>Polowy :)</strong></li>
+        <li>Miejsce działania: <strong>Szałas w lesie!</strong></li>
+    </ul>
+
+    <h2>Napisz poniżej do mnie wiadomość!</h2>
+    <form action="#" method="post">
+        <label for="message">Wiadomość:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+        <input type="submit" value="Maila ślij!">
+    </form>
+{% endblock %}
